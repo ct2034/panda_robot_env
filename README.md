@@ -26,5 +26,7 @@ roslaunch my_panda_moveit_config move_group.launch
 
 ## jogging
 
+`roslaunch panda_env_bringup panda_env_bringup.launch` (includes movegroup from config package generated above)
+
 rviz plugin +
 `roslaunch panda_env_bringup jog_arm.launch`
